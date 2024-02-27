@@ -1,25 +1,48 @@
-1. **Introduction**:
-   - Briefly describe the purpose of your project. Explain that it's a blog application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
+# Hi, I'm Anril! 👋
 
-2. **Features**:
-   - Highlight the key features of your blog app. Mention functionalities like user authentication, creating/editing/deleting posts, adding comments, and viewing user profiles.
+I'm a web developer. This is a sample of my project.
 
-3. **Installation**:
-   - Provide step-by-step instructions on how to set up the project locally. Include details about installing dependencies, configuring environment variables, and running the server and client.
+# Project Title
 
-4. **Database Models**:
-   - Describe the database schema for users, posts, and comments. Mention the fields (e.g., `userName`, `email`, `title`, `content`, etc.) and their purposes.
+A brief description of what this project does and who it's for
 
-5. **Usage**:
-   - Explain how users can interact with your app. Describe the routes (e.g., `/posts`, `/users`, etc.) and their functionalities.
+## Acknowledgements
 
-6. **Deployment**:
-   - If applicable, provide instructions for deploying your app to a production server. Mention any cloud services (e.g., Heroku, AWS, etc.) you're using.
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-7. **Contributing**:
-   - Encourage other developers to contribute to your project. Explain how they can submit pull requests and report issues.
+## API Reference
 
-8. **License**:
-   - Specify the license under which your project is released. Include a link to the full license text.
+#### Get all items
 
-Remember to customize these words based on your specific project and add any additional sections that are relevant. Good luck with your MERN stack blog development! 🚀📝
+```http  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+## Related
+
+Here are some related projects
+
+[Awesome README](https://github.com/matiassingers/awesome-readme)
+
+## Optimizations
+
+What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
