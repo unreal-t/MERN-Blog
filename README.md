@@ -1,5 +1,3 @@
-Certainly! Here are some **suggested words** you can include in your README for a MERN stack blog development project:
-
 1. **Introduction**:
    - Briefly describe the purpose of your project. Explain that it's a blog application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
 
