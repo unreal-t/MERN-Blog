@@ -10,7 +10,7 @@ export default function Header() {
         <Link to="/" className="self-center whitespace-nowrap text-small sm:text-xl font-semibold dark:text-white">
             <span className="px-2 py-1 bg-gradient-to-r from-indigo-500  via-purple-500 to-pink-400 rounded-lg text-white">Anril&apos;s</span>Blog
         </Link>
-        <form>
+        <form className="flex items-center gap-2">
             <TextInput
                 type="text"
                 placeholder="Search"
@@ -25,7 +25,7 @@ export default function Header() {
                     <FaMoon />
                 </Button>
                 <Link to={"/sign-in"} className="self-center whitespace-nowrap text-small sm:text-xl font-semibold dark:text-white">
-                    <Button gradientDuoTone={"purpleToBlue"} color='gray' pill>Sign In</Button>
+                    <Button gradientDuoTone={"purpleToBlue"} outline>Sign In</Button>
                 </Link>
                 <Navbar.Toggle />
             </div>
